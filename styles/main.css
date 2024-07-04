@@ -1,0 +1,120 @@
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Blinker", sans-serif;
+   font-weight: 600;
+}
+a{
+   color: white;
+}
+p{
+   font-family: "Nerko One", cursive;
+}
+aside{
+   position: fixed;
+   top: 35%;
+   left: 0;
+   background-color: #08080836;
+    /* law mdtlosh hykhod width 3la ad al content */
+   z-index: 100;
+   padding: 5px;
+   cursor: pointer;
+   align-items: flex-start; /*mosh hyt3mlo stretch */
+}
+.nav-content {
+   z-index: 100;
+   background-color: #252525;
+   color: white;
+   width: 15%;
+   height: 100vh;
+   position: fixed; 
+   top: 0;
+   left: 0; 
+   display: none; 
+   opacity: 0; 
+   visibility: hidden; 
+   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Smooth transition for opacity and visibility */
+}
+.nav-content.show {
+   display: block; 
+   opacity: 1; 
+   visibility: visible; 
+}
+.nav-content i {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: larger;
+}
+.nav-content .a-container {
+   padding-top: 30px !important;
+}
+.nav-content .a-container a {
+   text-decoration: none;
+   padding: 10px;
+   transition: color 0.2s ease-in-out;
+   font-size: x-large;
+}
+.nav-content .a-container a:hover {
+   color: rgba(214, 46, 51, 0.4) !important;
+}
+/* nav ends */
+.home {
+   height: 90vh;
+   background: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(..//images/events-heavenly-header.jpg); 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+   position: relative; /* Ensure head is positioned properly */
+}
+/* duration starts here */
+#duration{
+   margin-top: 50px !important;
+   margin-bottom: 50px !important;
+
+}
+#duration .info-title{
+   background-color: rgba(214, 46, 51, 0.6);
+   color: aliceblue;
+}
+#duration .info-content{
+   background-color: #cccccc;
+}
+#duration .d-n{
+   display: none;
+}
+/* ====== */
+#count{
+   height: 50vh;
+   background: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(..//images/invitation-2508607__340.jpg); 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+}
+#count .time{
+   color: white;
+   border-radius: 2px;
+   /* border:  solid 1 white !important; */
+   padding: 30px;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+/* ===== */
+#contact-us .icons{
+   cursor: pointer;
+}
+#contact-us p , #contact-us i {
+   color: #777777;
+}
+#contact-us .icons i{
+   margin: 10px;
+   transition: color 0.5s ease-in-out;
+   font-size: larger;
+}
+#contact-us .icon{
+   margin: 5px;
+}
+#contact-us .icons i:hover {
+color: rgba(214, 46, 52, 0.854) !important;
+}
+#contact-us .textWicon p{
+   font-size: small;
+}
